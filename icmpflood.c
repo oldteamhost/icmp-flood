@@ -65,7 +65,7 @@ dns_to_ip(char*);
 int /*Получить ваш IP, aka локальный.*/
 get_local_ip(char* buffer);
 
-uint16_t /*Расчёт контрольной суммы RFC 792 и другие.*/
+uint16_t /*Расчёт контрольной суммы RFC 793 и другие.*/
 checksum_16bit(const uint16_t* data, int length);
 
 void /*Функция запуска цикла для отправки icmp пакета.*/
