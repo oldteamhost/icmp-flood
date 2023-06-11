@@ -20,7 +20,9 @@ arguments main:
 Created by lomaster & OldTeam
 ```
 
-# Target
+# Errors
 ```
-DNS or IP
+Target only DNS or IP.
+Max size arch linux: 1500.
+Only sudo run!
 ```
