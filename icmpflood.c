@@ -8,6 +8,11 @@
  * Не стоит рассчитывать что вы сможете положить
  * google.com, да даже какой нибудь noname сайт.
  * Это скорей для примера, или дудоса игровых серверов.
+ *
+ * ИСТОЧНИКИ:
+ * https://www.rfc-editor.org/rfc/rfc792
+ * https://www.binarytides.com/icmp-ping-flood-code-sockets-c-linux/
+ * https://github.com/tang-ji/ICMP-Flood-Attack/blob/master/icmp.c
 */
 
 #include <stdio.h>
@@ -60,7 +65,7 @@ dns_to_ip(char*);
 int /*Получить ваш IP, aka локальный.*/
 get_local_ip(char* buffer);
 
-uint16_t /*Расчёт контрольной суммы RFC 793 и другие.*/
+uint16_t /*Расчёт контрольной суммы RFC 792 и другие.*/
 checksum_16bit(const uint16_t* data, int length);
 
 void /*Функция запуска цикла для отправки icmp пакета.*/
